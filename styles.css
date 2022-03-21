@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hero-section {
+    background-image: url("/images/hero-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+h1.orange-h1 {
+   
+    color: #e99124;
+    font-size: 89px;
+    font-weight: 800;
+    text-shadow: 3px -2px 5px #9f9f9f;
+}
+
+.broken-edges:before {
+    content: " ";
+    position: absolute;
+    top: -59px;
+    width: 100%;
+    left: 0;
+    background-image: url("/images/Shape-1.png");
+    background-position: center;
+    height: 99px;
+    background-size: contain;
+}
+.broken-edges:after {
+    content: " ";
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    left: 0;
+    background-image: url("/images/Shape-2.png");
+    background-position: center;
+    height: 99px;
+    background-size: contain;
+}
+#blog .card-body{
+    background-color: #746d67;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+.theme-color{
+    background-color: #746d67;
+    color: white;
+}
+.theme-color-2{
+    background-color: #e99124;
+    color: white;
+}
+#quote{
+    padding: 150px 0;
+   
+}
+#explore{
+    background-image: url("/images/image-4.jpg");
+    background-size: cover;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+}
+#explore .orange-h1 span{
+    color: #746d67;
+}
+#subsription{
+    padding: 150px 0;
+    background-color: #e99124;
+    color: white;
+}
+#subsription h1{
+    font-size: 89px;
+    font-weight: 800;
+    color: #746d67;
+    text-shadow: 3px -2px 5px #fff;
+
+
+}
+.social-links{
+    font-size: 33px;
+}
+footer{
+    font-size: 19px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer::before{
+    content: " ";
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    left: 0;
+    background-image: url("/images/Shape-1.png");
+    background-position: center;
+    height: 99px;
+    background-size: contain;
+}
